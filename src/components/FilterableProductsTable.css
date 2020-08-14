@@ -1,0 +1,58 @@
+.search-box {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.check-box {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+.width {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.table {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row {
+  background-color: rgba(255, 255, 255, 0.158);
+  padding: 3px 15vmin;
+  margin: 6px 0px;
+  border-bottom: 2px solid #0066ff38;
+}
+.header {
+  color: white;
+  background-color: rgb(0, 85, 155);
+  border: 2px solid rgb(17, 19, 116);
+  display: flex;
+  padding: 5px 100px;
+  justify-content: space-around;
+  font-size: 1.7em;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5em;
+}
+.details td {
+  margin: 0 70px;
+}
+
+h1 {
+  max-width: 41%;
+  margin: 20px auto;
+  background-color: rgba(0, 204, 255, 0.774);
+  font-size: 3em;
+}
+
+input {
+  margin-left: 10px;
+  padding: 5px;
+}
